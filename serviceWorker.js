@@ -1,5 +1,11 @@
 const cacheName = "cache-v1";
-const assets = ["/", "/index.html", "/img.jpg", "/style.css"];
+const assets = [
+  "/",
+  "/index.html",
+  "/style.css",
+  "/assets/img.jpg",
+  "/assets/Lobster-Regular.ttf",
+];
 
 // mettre en cache
 self.addEventListener("install", (e) => {
